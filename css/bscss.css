@@ -1,0 +1,99 @@
+*{
+	padding: 0; margin: 0; 
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+hr{
+	border-top: rgba(0,0,6);
+	background-color: grey;
+}
+#light{
+	background-color: lightgrey;
+}
+.back{
+	background-color: #dfe4ea;
+}
+.text_css{
+	text-shadow: 2px 4px 2px skyblue;
+	transition: transform 2s;
+	transition-timing-function: linear;
+}
+@font-face{
+	font-family: fancy;
+	src: url('D:\\webmet\\traveling\\assets\\Karate.ttf');
+}
+.font_about{
+	font-family: fancy;
+}
+.hrt{
+	width: 50px;
+	height: 50px;
+	transition-property: width, height;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+}
+.hrt:hover{
+	width: 80px;
+	height: 80px;
+}
+.gif_animation{
+	width: 100%; height: 100px;
+	position: relative;
+}
+
+.gif_animation img{
+	height: 120px; width: 140px;
+	position: absolute;
+	left: 0;
+	top: -15px;
+	animation-iteration-count: infinite;
+	animation-duration: 5s;
+	animation-name: batmanbhag;
+	animation-timing-function: linear;
+}
+
+@keyframes batmanbhag{
+	from{left: 0}
+	to{ left: 85% }
+}
+
+.about_para{
+	column-count: 3;
+	column-gap: 50px;
+	text-align: justify;
+	column-rule: dashed;	
+}
+
+.img-fluid{
+	border-radius: 20px;
+}
+
+.card{
+	box-shadow: 4px 4px 5px 4px grey;
+}
+
+.flex_css{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(to left,#F650FE, #607BF5);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center; 
+}
+
+.text_css:hover{
+	transform: rotate(360deg);
+}
+
+@media only screen and (max-width:400px){
+	
+	.carousel-caption{font-size: 10px;}
+	@keyframes batmanbhag{
+		from{left: 0}
+		to{ left: 70% }
+	}
+}
+
+
+

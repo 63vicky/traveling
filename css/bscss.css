@@ -19,11 +19,11 @@ hr{
 	transition-timing-function: linear;
 }
 @font-face{
-	font-family: fancy;
+	font-family: kuchbhi;
 	src: url('D:\\webmet\\traveling\\assets\\Karate.ttf');
 }
 .font_about{
-	font-family: fancy;
+	font-family: kuchbhi;
 }
 .hrt{
 	width: 50px;
